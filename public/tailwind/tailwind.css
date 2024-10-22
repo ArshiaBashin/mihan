@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mihan{
+    .main{
+        width: 170px;
+        height: 100px;
+        height: fit-content;
+        position: absolute;
+        top: 0;
+        display: none;
+        z-index: 999;
+        background-color: darkgray;
+        .menu{
+            position: relative;
+            a{
+              padding: 6px;
+              font-size: 14px;
+            }
+            .submenu{
+              width: 90px;
+              height: 83px;
+              position: absolute;
+              left: -60px;
+              bottom: -9px;
+              display: none;
+              z-index: 999;
+              .item-submenu {
+                width: inherit;
+                height: inherit;
+                text-align: center;
+                position: static;
+                .submenu-sub {
+                  height: 42px;
+                  margin-top: 2px;
+                  position: relative;
+                  .mihan-submenu{
+                    display: none;
+                  }
+                  &:hover .mihan-submenu{
+                    display: block;
+                  }
+                }
+                .submenu-sub-s{
+                  height: 42px;
+                  margin-top: 2px
+                }
+              }
+            }
+            &:hover .submenu{
+              display: block;
+            }
+          }
+    }
+    &:hover .main{
+        display: block;
+    }
+}
