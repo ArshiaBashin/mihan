@@ -1809,32 +1809,12 @@ html {
   top: 50%;
 }
 
-.top-\[10px\] {
-  top: 10px;
+.top-\[1px\] {
+  top: 1px;
 }
 
 .top-\[30px\] {
   top: 30px;
-}
-
-.top-\[15px\] {
-  top: 15px;
-}
-
-.top-\[20px\] {
-  top: 20px;
-}
-
-.top-\[5px\] {
-  top: 5px;
-}
-
-.top-\[3px\] {
-  top: 3px;
-}
-
-.top-\[1px\] {
-  top: 1px;
 }
 
 .m-0 {
@@ -1995,10 +1975,6 @@ html {
   width: 10%;
 }
 
-.w-\[150\%\] {
-  width: 150%;
-}
-
 .w-\[180px\] {
   width: 180px;
 }
@@ -2037,6 +2013,30 @@ html {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[200px\] {
+  width: 200px;
+}
+
+.max-w-\[600px\] {
+  max-width: 600px;
+}
+
+.max-w-\[px\] {
+  max-width: px;
+}
+
+.max-w-\[700px\] {
+  max-width: 700px;
+}
+
+.max-w-\[00px\] {
+  max-width: 00px;
+}
+
+.max-w-\[300px\] {
+  max-width: 300px;
 }
 
 .-translate-y-1\/2 {
@@ -2103,6 +2103,10 @@ html {
 
 .bg-\[url\(\'\.\.\/\.\.\/images\/img14\.png\'\)\] {
   background-image: url('../../images/img14.png');
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/images\/img13\.png\'\)\] {
+  background-image: url('../../images/img13.png');
 }
 
 .bg-cover {
@@ -2311,13 +2315,6 @@ html {
   color: rgb(173 216 230 / var(--tw-text-opacity));
 }
 
-@media (min-width: 640px) {
-  .sm\:bg-\[red\] {
-    --tw-bg-opacity: 1;
-    background-color: rgb(255 0 0 / var(--tw-bg-opacity));
-  }
-}
-
 @media (min-width: 1024px) {
   .lg\:absolute {
     position: absolute;
@@ -2433,8 +2430,16 @@ html {
     height: 7rem;
   }
 
+  .lg\:h-\[100px\] {
+    height: 100px;
+  }
+
   .lg\:h-\[1100px\] {
     height: 1100px;
+  }
+
+  .lg\:h-\[146px\] {
+    height: 146px;
   }
 
   .lg\:h-\[205px\] {
@@ -2455,6 +2460,10 @@ html {
 
   .lg\:h-\[450px\] {
     height: 450px;
+  }
+
+  .lg\:h-\[46px\] {
+    height: 46px;
   }
 
   .lg\:h-\[50\%\] {
@@ -2487,18 +2496,6 @@ html {
 
   .lg\:h-full {
     height: 100%;
-  }
-
-  .lg\:h-\[146px\] {
-    height: 146px;
-  }
-
-  .lg\:h-\[100px\] {
-    height: 100px;
-  }
-
-  .lg\:h-\[46px\] {
-    height: 46px;
   }
 
   .lg\:w-\[10\%\] {
@@ -2610,6 +2607,10 @@ html {
     text-align: center;
   }
 
+  .lg\:text-\[125\%\] {
+    font-size: 125%;
+  }
+
   .lg\:text-\[12px\] {
     font-size: 12px;
   }
@@ -2632,10 +2633,6 @@ html {
 
   .lg\:text-\[25px\] {
     font-size: 25px;
-  }
-
-  .lg\:text-\[125\%\] {
-    font-size: 125%;
   }
 
   .lg\:text-\[\#ccf4fe\] {
